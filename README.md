@@ -1,18 +1,42 @@
+
 # CV Nicoleta Roiu
 
-CV interactiv construit în HTML + CSS, cu suport pentru traducere automată (RO/EN) și opțiune de export PDF.
+Acesta este CV-ul meu online realizat cu HTML și CSS, cu opțiune de descărcare PDF și traducere automată în limba engleză folosind Google Translate.
 
-## 🔗 Linkuri utile
+## 🔗 Live Demo
 
-- [LinkedIn](https://www.linkedin.com/in/nicoleta-roiu-183701296)
-- [GitHub](https://github.com/RoiuNICOLETA)
+Vizitează site-ul online:  
+🌐 [cv-nicoleta-roiu.netlify.app](https://cv-nicoleta-roiu.netlify.app)
 
-## 💼 Tehnologii folosite
+## 📂 Tehnologii folosite
 
 - HTML5
 - CSS3
-- JavaScript (pentru PDF și Google Translate)
+- JavaScript (html2pdf)
+- Google Translate API
+- Netlify (Hosting)
 
-## 🖨️ Export
+## 📄 Funcționalități
 
-Apasă butonul „Descarcă CV PDF” pentru versiunea PDF automată.
+- Design responsive
+- Descarcă CV în format PDF (fără să caute fișier local)
+- Linkuri către LinkedIn și GitHub cu iconuri
+
+  ## 🌍 Limbi disponibile
+
+- Română 🇷🇴
+- Engleză 🇬🇧
+- Italiană 🇮🇹
+
+
+## 🧾 Structură fișiere
+📁 CV-NICOLETA-ROIU
+├── index.html
+├── cv-nicoleta-roiu.css
+
+## 📬 Contact
+
+📧 nicoll27_2004@yahoo.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/nicoleta-roiu-183701296)  
+🐱 [GitHub](https://github.com/RoiuNICOLETA)
+
