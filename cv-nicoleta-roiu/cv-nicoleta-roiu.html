@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Nicoleta Roiu</title>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "ro",
+            includedLanguages: "ro,en",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="cv-nicoleta-roiu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="google_translate_element" class="translator"></div>
+
+      <h1>Nicoleta ROIU</h1>
+      <p>
+        <strong>Front-End Developer</strong><br />
+        Constanta, ROMANIA<br />
+        Telefon:+40 728 365 385<br />
+        Email :<a href="mailto:nicoll27_2004@yahoo.com"
+          >nicoll27_2004@yahoo.com</a
+        ><br /><br />
+      
+        <div class="socials">
+          <span class="icon-link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="20" />
+            <a href="https://www.linkedin.com/in/nicoleta-roiu-183701296" target="_blank">LinkedIn</a>
+          </span>
+          <span class="icon-link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="20" />
+            <a href="https://github.com/RoiuNICOLETA" target="_blank">GitHub</a>
+          </span>
+        </div>
+
+      </p>
+
+      <div class="section">
+        <h2>Profil profesional</h2>
+        <p>
+          Front-End Developer pasionata de crearea de aplicatii web moderne,
+          interactive si responsive, <br />
+          cu accent pe experienta utilizatorului.<br />
+          Absolventa a cursului intensiv de Front-End Development la NewTech
+          Academy.<br />
+          Dupa o cariera extinsa in aviatie, imi concentrez energia in
+          dezvoltarea digitala.<br />
+          Organizata, autodidacta,atenta la detalii.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Competente tehnice</h2>
+        <ul>
+          <li>JavaScript (ES6+), HTML, CSS</li>
+          <li>React.JS, Context API, CSS Modules</li>
+          <li>Git, Firebase, Ewbpack, Vite</li>
+          <li>Responsive Design, UI/UX, Testing</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Educatie si formare</h2>
+        <ul>
+          <li>Front-End Developer - NewTech Academy (2025)</li>
+          <li>IATA Load Planner - Regional Air Support (2024)</li>
+          <li>Dangerous Goods Reg. Cat. 3 - 2021</li>
+          <li>Licenta Management - Univ. Andrei Saguna (2010)</li>
+          <li>Specialist SSM - Bucuresti (2007)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Experienta profesionala</h2>
+        <ul>
+          <li>
+            <strong>Handling Operator</strong> - Aeroportul M. Kogalniceanu
+            (2008-Prezent)
+          </li>
+          <li>
+            <strong>Manager / Inspector SSM</strong> - SC Sandrelli SRL
+            (1996-2023)
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Limbi straine</h2>
+        <p>Engleza - B2<br />Italiana - B2</p>
+      </div>
+
+      <div class="section">
+        <h2>Hobby-uri</h2>
+        <p>Desen, arte vizuale, UI design</p>
+      </div>
+
+      <button class="btn" onclick="descarcaPDF()">★ Descarcă CV PDF</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+      function descarcaPDF() {
+        const element = document.querySelector(".container");
+        const btn = document.querySelector(".btn");
+
+        // Ascundem butonul înainte de generarea PDF-ului
+        btn.style.display = "none";
+
+        const optiuni = {
+          margin: 0,
+          filename: "cv-nicoleta-roiu.pdf",
+          image: { type: "jpeg", quality: 0.98 },
+          html2canvas: { scale: 2, useCORS: true, scrollY: 0 },
+          jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
+
+          pagebreak: { mode: ["avoid-all", "css", "legacy"] },
+        };
+        // html2pdf().set(optiuni).from(element).save();
+
+        html2pdf()
+          .set(optiuni)
+          .from(element)
+          .save()
+          .then(() => {
+            // Afișăm butonul înapoi după salvare
+            btn.style.display = "inline-block";
+          });
+      }
+    </script>
+  </body>
+</html>
