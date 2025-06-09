@@ -1,42 +1,66 @@
-
 # CV Nicoleta Roiu
 
-Acesta este CV-ul meu online realizat cu HTML și CSS, cu opțiune de descărcare PDF și traducere automată în limba engleză folosind Google Translate.
+Curriculum Vitae interactiv realizat în HTML, CSS și JavaScript, cu suport pentru traducere automată în mai multe limbi.
 
-## 🔗 Live Demo
-
-Vizitează site-ul online:  
-🌐 [cv-nicoleta-roiu.netlify.app](https://cv-nicoleta-roiu.netlify.app)
+🔗 **Live demo:**  
 https://lively-melba-60e78f.netlify.app/
-## 📂 Tehnologii folosite
+
+---
+
+## 📄 Descriere
+
+Acest CV este creat ca pagină web statică și include:
+
+- Date personale de contact
+- Profil profesional
+- Competențe tehnice
+- Educație și formare
+- Experiență profesională
+- Hobby-uri
+- Buton pentru descărcarea PDF
+- Suport pentru traducere automată (Google Translate)
+
+---
+
+## 🌍 Limbi disponibile
+
+- 🇷🇴 Română (implicit)
+- 🇬🇧 Engleză
+- 🇮🇹 Italiană
+
+---
+
+## 🛠️ Tehnologii folosite
 
 - HTML5
 - CSS3
-- JavaScript (html2pdf)
-- Google Translate API
-- Netlify (Hosting)
+- Google Fonts
+- JS script `html2pdf.js`
+- Google Translate Widget
 
-## 📄 Funcționalități
+---
 
-- Design responsive
-- Descarcă CV în format PDF (fără să caute fișier local)
-- Linkuri către LinkedIn și GitHub cu iconuri
+## 🚀 Hosting
 
-  ## 🌍 Limbi disponibile
+Deploy automat sau manual realizat cu [Netlify](https://www.netlify.com/)
 
-- Română 🇷🇴
-- Engleză 🇬🇧
-- Italiană 🇮🇹
+---
+
+## 📥 Descărcare PDF
+
+Butonul de descărcare exportă automat CV-ul în format PDF fără a include butonul în sine.
+
+---
+
+## 🖼️ Capturi de ecran
+
+![image](https://github.com/user-attachments/assets/b55eb4d3-341c-4b84-9f81-2d2f4223a7f2)
 
 
-## 🧾 Structură fișiere
-📁 CV-NICOLETA-ROIU
-├── index.html
-├── cv-nicoleta-roiu.css
+---
 
 ## 📬 Contact
 
-📧 nicoll27_2004@yahoo.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/nicoleta-roiu-183701296)  
-🐱 [GitHub](https://github.com/RoiuNICOLETA)
-
+- **Email:** [nicoll27_2004@yahoo.com](mailto:nicoll27_2004@yahoo.com)  
+- **LinkedIn:** [Nicoleta Roiu](https://www.linkedin.com/in/nicoleta-roiu-183701296)  
+- **GitHub:** [RoiuNICOLETA](https://github.com/RoiuNICOLETA)
