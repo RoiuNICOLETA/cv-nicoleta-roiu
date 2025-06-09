@@ -7,7 +7,7 @@ Acesta este CV-ul meu online realizat cu HTML și CSS, cu opțiune de descărcar
 
 Vizitează site-ul online:  
 🌐 [cv-nicoleta-roiu.netlify.app](https://cv-nicoleta-roiu.netlify.app)
-
+https://lively-melba-60e78f.netlify.app/
 ## 📂 Tehnologii folosite
 
 - HTML5
